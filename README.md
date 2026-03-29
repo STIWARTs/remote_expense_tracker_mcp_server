@@ -1,6 +1,6 @@
 # FastMCP Setup Guide (Python + Inspector)
 
-![Demo](Demo.png)
+![Demo](DEMO.png)
 
 ## Overview
 
