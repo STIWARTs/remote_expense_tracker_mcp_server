@@ -1,5 +1,7 @@
 # FastMCP Setup Guide (Python + Inspector)
 
+![Demo](Demo.png)
+
 ## Overview
 
 This project uses FastMCP to build a Model Context Protocol (MCP) server in Python.
@@ -204,4 +206,11 @@ npx fastmcp inspect main.py
 * Do not rely on global installations
 * Prefer `uv run` for consistency
 
----
+
+## 11. Add the server to Claude Desktop
+
+To add your MCP server to Claude Desktop, run:
+
+```bash
+uv run fastmcp install claude-desktop main.py
+```
